@@ -1,0 +1,59 @@
+popular visualization tools
+	streamlit
+	voila
+	plotly/dash
+	panel
+	shiny
+	flask
+
+Plotly Dash and Streamlit gained popularity recently
+
+If you are working wih Jupyter Notebooks and turn them into dashboard
+	voila
+	panel
+
+This is not supported by the following
+	plotly/dash 
+	streamlit 
+	flask 
+
+plotly|Dash
+	- Most popular tool
+	- Builds production-ready dashboards for larger companies
+	- Lots of design flexibility
+	- Requires basic web development skills
+	- built on top of Plotly.js, React and Flask
+
+Steamlit
+	- Get a prototype of your dashboard up and running as quickly as possible
+	- Can be a bit slow due to procedural programming
+
+Flask
+	- Web framework written in Python
+	- If you want to build your dashboard from the ground up
+
+
+========================================================================
+mkdir co2_dashboard
+python3 -m venv ./
+source bin/activate
+
+Window users------------------------
+C:\> python -m venv path\to\myenv
+C:\> cd path\to\myenv
+C:\> Scripts\activate.bat
+==================================
+
+pip3 install hvplot jupyterlab
+
+
+
+
+
+
+
+
+
+
+
+
